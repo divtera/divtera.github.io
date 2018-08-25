@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Choppr - Fastest way to commute</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+        <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+    </head>
+    <body>
+        <div id="status_page" style="color:white">
+            <header id="header">
+                <h1 style="text-align:center">Choppr</h1>
+            </header>
+            <div id="subheader">
+                <h2 style="text-align:center;font-weight:100;margin-bottom:0.1em">There are <b style="color:#009ACD" id="waitlist-position"></b> people ahead of you!</h2>
+            </div>
+            <div id="share">
+                <h3 style="text-align:center;font-weight:200;">Board first by referring your friends.</h3>
+            </div>
+            <div id="share_buttons" style="text-align:center">
+                     <a class="fb-share button" style="font-weight:400;letter-spacing:0.03em;font-size:1.15em;margin-left:1em" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.choppr.io%2F%3Fref%3DREPLACEME&amp;src=sdkpreparse" target="_blank"><i class="fa fa-facebook-square"></i>&nbsp;&nbsp;Share</a>
+                     <a class="tw-share button" style="font-weight:400;letter-spacing:0.03em;font-size:1.15em;margin-left:1em" href="https://twitter.com/intent/tweet?hashtags=choppr&original_referer=https%3A%2F%2Fdev.twitter.com%2Fweb%2Ftweet-button&ref_src=twsrc%5Etfw&related=twitterapi%2Ctwitter&text=Join%20me%20on%20Choppr!&tw_p=tweetbutton&url=http%3A%2F%2Fchoppr.io%2F%3Fref%3DREPLACEME&via=chopprflights" target="_blank"><i class="fa fa-twitter"></i>&nbsp;&nbsp;Tweet</a>
+                     <a class="button email-share" style="font-weight:400;letter-spacing:0.03em;font-size:1.15em;margin-left:1em" href="mailto:?Subject=Someone%20has%20shared%20Choppr%20with%20you!&Body=Hey!%0A%0AI%20just%20signed%20up%20for%20Choppr!%20They%20provide%20affordable,%20helicopter%20flights%20for%20your%20daily%20commute.%20Shorten%20your%20commute%20now,%20there's%20no%20time%20to%20waste!%0A%0AJoin%20the%20waitlist%20using%20my%20referral%20link:%20http://choppr.io/?ref=REPLACEME." target="_top"><i class="fa fa-envelope"></i>&nbsp;&nbsp;Email</a>
+                     <a class="ln-share button" style="font-weight:400;letter-spacing:0.03em;font-size:1.15em;margin-left:1em" href="https://www.linkedin.com/cws/share?url=choppr.io%2F%3Fref%3DREPLACEME"><i class="fa fa-linkedin-square" target="_blank"></i>&nbsp;&nbsp;Share</a>
+            </div>
+            <div id="share_link" style="margin-top:1.5em;font-size:1em;font-weight:200">
+                <p style="text-align:center;margin-bottom:0.5em">Or share the referral link below:</p>
+                <p style="text-align:center;font-size:1.25em"><b style="color:#009ACD;display:none" class="url-share">http://choppr.io/?ref=REPLACEME</b></p>
+            </div>
+
+            <script src="assets/js/jquery-3.1.1.min.js"></script>
+            <script src="assets/js/share.js"></script>
+            <script src="assets/js/main.js"></script>
+            <script src="https://cdn.rawgit.com/vast-engineering/jquery-popup-overlay/1.7.13/jquery.popupoverlay.js"></script>
+            <script>
+                $(document).ready(function() {
+                    $('.fb-share').click(function(e) {
+                        e.preventDefault();
+                        window.open($(this).attr('href'), 'fbShareWindow', 'height=450, width=550, top=' + ($(window).height() / 2 - 275) + ', left=' + ($(window).width() / 2 - 225) + ', toolbar=0, location=0, menubar=0, directories=0, scrollbars=0');
+                        return false;
+                    });
+                    $('.ln-share').click(function(e) {
+                        e.preventDefault();
+                        window.open($(this).attr('href'), 'fbShareWindow', 'height=450, width=550, top=' + ($(window).height() / 2 - 275) + ', left=' + ($(window).width() / 2 - 225) + ', toolbar=0, location=0, menubar=0, directories=0, scrollbars=0');
+                        return false;
+                    });
+                    $('.tw-share').click(function(e) {
+                        e.preventDefault();
+                        window.open($(this).attr('href'), 'fbShareWindow', 'height=450, width=550, top=' + ($(window).height() / 2 - 275) + ', left=' + ($(window).width() / 2 - 225) + ', toolbar=0, location=0, menubar=0, directories=0, scrollbars=0');
+                        return false;
+                    });
+                });
+            </script>
+
+	    <script>
+	      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	      ga('create', 'UA-86125972-1', 'auto');
+	      ga('send', 'pageview');
+	    </script>
+    </body>
+</html>
