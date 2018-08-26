@@ -52,7 +52,7 @@ function ValidateEmail(email)
 
 	    // Images
 	    images: {
-		'https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2014/12/17/2/Neumann-Mendro-Andrulaitis-Architects_Kurth_Pool-5.jpg.rend.hgtvcom.1280.853.suffix/1418847538859.jpeg': 'center'
+		'http://i.imgur.com/a9PIaOP.jpg': 'center'
 		
 	    },
 
