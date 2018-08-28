@@ -9,13 +9,13 @@ function getParam(name) {
 }
 
 function ValidateEmail(email)
-{  
- if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email))  
-  {  
-    return (true)  
-  }  
-    return (false)  
-} 
+{
+ if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email))
+  {
+    return (true)
+  }
+    return (false)
+}
 
 (function() {
 
@@ -52,12 +52,15 @@ function ValidateEmail(email)
 
 	    // Images
 	    images: {
-		'http://i.imgur.com/a9PIaOP.jpg': 'center'
-		
+        'http://i.imgur.com/a9PIaOP.jpg': 'center',
+        'https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2014/12/17/2/Neumann-Mendro-Andrulaitis-Architects_Kurth_Pool-5.jpg.rend.hgtvcom.1280.853.suffix/1418847538859.jpeg': 'center',
+        'http://cdn.sheamediaservices.com/MyHD/u_282/vista-dorado-images/Plan6CCropped.jpg':'center',
+        'http://northcountynewhomes.com/wp-content/uploads/2018/03/S.L.Rey-Bonsall-New-Homes-Plan-2.jpg':'center',
+        'http://media.metrolist.net/metrolist/listingpics/bigphoto/046/18021946_28.jpg?tsp=20180411185600':'center'
 	    },
 
 	    // Delay.
-	    delay: 0
+	    delay: 10000
 
 	};
 
@@ -191,7 +194,7 @@ function ValidateEmail(email)
 
 		    error : function(resp) {
 			if(resp.status == 400) {
-			    $message._show('failure', 'Sorry! This email has already been used.');			    
+			    $message._show('failure', 'Sorry! This email has already been used.');
 			} else {
 			    $message._show('failure', 'Sorry! Something went wrong. Please try again.');
 			}
