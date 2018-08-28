@@ -52,11 +52,11 @@ function ValidateEmail(email)
 
 	    // Images
 	    images: {
-        'http://i.imgur.com/a9PIaOP.jpg': 'center',
-        'https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2014/12/17/2/Neumann-Mendro-Andrulaitis-Architects_Kurth_Pool-5.jpg.rend.hgtvcom.1280.853.suffix/1418847538859.jpeg': 'center',
-        'http://cdn.sheamediaservices.com/MyHD/u_282/vista-dorado-images/Plan6CCropped.jpg':'center',
-        'http://northcountynewhomes.com/wp-content/uploads/2018/03/S.L.Rey-Bonsall-New-Homes-Plan-2.jpg':'center',
-        'http://media.metrolist.net/metrolist/listingpics/bigphoto/046/18021946_28.jpg?tsp=20180411185600':'center'
+        'https://github.com/divtera/divtera.github.io/blob/master/images/divtera_one.jpg?raw=true': 'center',
+        'https://github.com/divtera/divtera.github.io/blob/master/images/divtera_two.jpeg?raw=true': 'center',
+        'https://github.com/divtera/divtera.github.io/blob/master/images/divtera_three.jpg?raw=true':'center',
+        'https://github.com/divtera/divtera.github.io/blob/master/images/divtera_four.jpg?raw=true':'center',
+        'https://github.com/divtera/divtera.github.io/blob/master/images/divtera_five.jpg?raw=true':'center'
 	    },
 
 	    // Delay.
