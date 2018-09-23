@@ -1,74 +1,195 @@
-# [Start Bootstrap - Agency](https://startbootstrap.com/template-overviews/agency/)
+<h1 id="argon-design-system"><a href="https://www.creative-tim.com/product/argon-design-system">Argon Design System</a></h1>
 
-[Agency](https://startbootstrap.com/template-overviews/agency/) is a one page agency portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, a responsive timeline, and a working PHP contact form.
+<p><img src="https://s3.amazonaws.com/creativetim_bucket/products/90/original/opt_argon_thumbnail.jpg" alt="Product Gif" /></p>
 
-## Preview
+<p>Start your development with a Design System for Bootstrap 4. It is open source, free and it features many components that can help you create amazing websites.</p>
 
-[![Agency Preview](https://startbootstrap.com/assets/img/templates/agency.jpg)](https://blackrockdigital.github.io/startbootstrap-agency/)
+<h4 id="fully-coded-components">Fully Coded Components</h4>
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-agency/)**
+<p>Argon Design System is built with over 100 individual components, giving you the freedom of choosing and combining. All components can take variations in colour, that you can easily modify using SASS files.</p>
 
-## Status
+<p>You will save a lot of time going from prototyping to full-functional code, because all elements are implemented. This Design System is coming with prebuilt examples, so the development process is seamless, switching from our pages to the real website is very easy to be done.</p>
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-agency.svg)](https://www.npmjs.com/package/startbootstrap-agency)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-agency.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-agency)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-agency/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-agency)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-agency/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-agency?type=dev)
+<p>Every element has multiple states for colors, styles, hover, focus, that you can easily access and use.</p>
 
-## Download and Installation
+<h4 id="complex-documentation">Complex Documentation</h4>
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/agency/)
-* Install via npm: `npm i startbootstrap-agency`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-agency.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-agency)
+<p>Each element is well presented in a very complex documentation. You can read more about the idea behind this design system here. You can check the components here and the foundation here.</p>
 
-## Usage
+<h4 id="example-pages">Example Pages</h4>
 
-### Basic Usage
+<p>If you want to get inspiration or just show something directly to your clients, you can jump start your development with our pre-built example pages. You will be able to quickly set up the basic structure for your web project.</p>
 
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
+<h2 id="table-of-contents">Table of Contents</h2>
 
-### Advanced Usage
+<ul>
+  <li><a href="#demo">Demo</a></li>
+  <li><a href="#quick-start">Quick Start</a></li>
+  <li><a href="#documentation">Documentation</a></li>
+  <li><a href="#file-structure">File Structure</a></li>
+  <li><a href="#browser-support">Browser Support</a></li>
+  <li><a href="#resources">Resources</a></li>
+  <li><a href="#reporting-issues">Reporting Issues</a></li>
+  <li><a href="#technical-support-or-questions">Technical Support or Questions</a></li>
+  <li><a href="#licensing">Licensing</a></li>
+  <li><a href="#useful-links">Useful Links</a></li>
+</ul>
 
-After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
+<h2 id="versions">Versions</h2>
 
-#### Gulp Tasks
+<p>We are coding Argon Design System for this frameworks also. Chek’em out:</p>
 
-- `gulp` the default task that builds everything
-- `gulp dev` browserSync opens the project in your default browser and live reloads when changes are made
-- `gulp css` compiles SCSS files into CSS and minifies the compiled CSS
-- `gulp js` minifies the themes JS file
-- `gulp vendor` copies dependencies from node_modules to the vendor directory
+<ul>
+  <li><a href="https://www.creative-tim.com/product/vue-argon-design-system">Vue.js</a></li>
+</ul>
 
-You must have npm and Gulp installed globally on your machine in order to use these features.
+<h3 id="coming-soon">Coming soon</h3>
 
-## Troubleshooting and Help
+<ul>
+  <li>Angular</li>
+  <li>React</li>
+  <li>Sketch</li>
+  <li>Photoshop</li>
+</ul>
 
-Start Bootstrap has a public Slack channel which is a great place to ask questions about this template and all things related to Start Bootstrap.
+<h2 id="demo">Demo</h2>
 
-**[Click here to join the Slack channel!](https://startbootstrap-slack.herokuapp.com/)**
+<ul>
+  <li><a href="https://demos.creative-tim.com/argon-design-system">Index Page</a></li>
+  <li><a href="https://demos.creative-tim.com/argon-design-system/examples/landing.html">Landing page</a></li>
+  <li><a href="https://demos.creative-tim.com/argon-design-system/examples/profile.html">Profile Page</a></li>
+  <li><a href="https://demos.creative-tim.com/argon-design-system/examples/login.html">Login Page</a></li>
+  <li><a href="https://demos.creative-tim.com/argon-design-system/examples/register.html">Register Page</a></li>
+  <li><a href="https://demos.creative-tim.com/argon-design-system/docs/getting-started/overview.html">Documentation</a></li>
+</ul>
 
-## Bugs and Issues
+<p><a href="https://demos.creative-tim.com/argon-design-system">View More</a></p>
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-agency/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/agency/).
+<h2 id="download-and-installation">Download and Installation</h2>
 
-## About
+<ul>
+  <li><a href="https://github.com/creativetimofficial/argon-design-system/archive/master.zip">Download from Github</a></li>
+  <li>
+    <p><a href="https://www.creative-tim.com/product/argon-design-system">Download from Creative Tim</a></p>
+  </li>
+  <li>
+    <p>Install with Bower: <code class="highlighter-rouge">bower install argon-design-system</code></p>
+  </li>
+  <li>
+    <p>Install with Composer: <code class="highlighter-rouge">composer create-project creativetimofficial/argon-design-system</code></p>
+  </li>
+  <li>
+    <p>Clone from Github: <code class="highlighter-rouge">git clone https://github.com/creativetimofficial/argon-design-system.git</code></p>
+  </li>
+  <li>
+    <p>Install with Npm: <code class="highlighter-rouge">npm i argon-design-system-free</code></p>
+  </li>
+  <li>Install with Yarn: <code class="highlighter-rouge">yarn add argon-design-system-free</code></li>
+</ul>
 
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+<h2 id="documentation">Documentation</h2>
 
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
+<p>The documentation for the Argon Design System is hosted at our <a href="https://demos.creative-tim.com/argon-design-system/docs/getting-started/overview.html">website</a>.</p>
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+<h2 id="file-structure">File Structure</h2>
 
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+<p>Within the download you’ll find the following directories and files:</p>
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>argon/
+├── CHANGELOG.md
+├── LICENSE.md
+├── README.md
+├── assets/
+  ├── css/
+  │   ├── argon.css
+  │   ├── argon.css.map
+  │   ├── argon.min.css
+  │   ├── argon.min.css.map
+  └── img/
+  │   ├── argon/
+  │   ├── brand/
+  │   ├── icons/
+  │   ├── ill/
+  └── js/
+  │   ├── argon.js
+  │   └── argon.min.js
+  └── scss/
+  │   ├── bootstrap/
+  │   ├── custom/
+  │   ├── argon.scss
+  └── vendor/
+      ├── bootstrap/
+      ├── bootstrap-datepicker/
+      ├── font-awesome/
+      ├── headroom/
+      ├── jquery/
+      ├── nouislider/
+      ├── nucleo/
+      ├── popper/
 
-## Copyright and License
+</code></pre></div></div>
 
-Copyright 2013-2018 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-agency/blob/gh-pages/LICENSE) license.
+<h2 id="browser-support">Browser Support</h2>
+
+<p>At present, we officially aim to support the last two versions of the following browsers:</p>
+
+<p><img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64" />
+<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64" />
+<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/edge.png" width="64" height="64" />
+<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64" />
+<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/opera.png" width="64" height="64" /></p>
+
+<h2 id="resources">Resources</h2>
+
+<ul>
+  <li>Demo: <a href="https://demos.creative-tim.com/argon-design-system">https://demos.creative-tim.com/argon-design-system</a></li>
+  <li>Download: <a href="https://www.creative-tim.com/product/argon-design-system">https://www.creative-tim.com/product/argon-design-system</a></li>
+  <li>Documentation: <a href="https://demos.creative-tim.com/argon-design-system/docs/getting-started/overview.html">https://demos.creative-tim.com/argon-design-system/docs/getting-started/overview.html</a></li>
+  <li>License Agreement: <a href="https://www.creative-tim.com/license">https://www.creative-tim.com/license</a></li>
+  <li>Support: <a href="https://www.creative-tim.com/contact-us">https://www.creative-tim.com/contact-us</a></li>
+  <li>Issues: <a href="https://github.com/creativetimofficial/argon-design-system/issues">Github Issues Page</a></li>
+</ul>
+
+<h2 id="reporting-issues">Reporting Issues</h2>
+
+<p>We use GitHub Issues as the official bug tracker for the Argon Design System. Here are some advices for our users that want to report an issue:</p>
+
+<ol>
+  <li>Make sure that you are using the latest version of the Argon Design System. Check the CHANGELOG from your copy on our <a href="https://www.creative-tim.com">website</a>.</li>
+  <li>Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.</li>
+  <li>Some issues may be browser specific, so specifying in what browser you encountered the issue might help.</li>
+</ol>
+
+<h2 id="technical-support-or-questions">Technical Support or Questions</h2>
+
+<p>If you have questions or need help integrating the product please <a href="https://www.creative-tim.com/contact-us">contact us</a> instead of opening an issue.</p>
+
+<h2 id="licensing">Licensing</h2>
+
+<ul>
+  <li>
+    <p>Copyright © 2018 Creative Tim (https://www.creative-tim.com)</p>
+  </li>
+  <li>
+    <p>Licensed under MIT (https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md)</p>
+  </li>
+</ul>
+
+<h2 id="useful-links">Useful Links</h2>
+
+<ul>
+  <li><a href="https://www.creative-tim.com/bootstrap-themes">More products</a> from Creative Tim</li>
+  <li><a href="https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w">Tutorials</a></li>
+  <li><a href="https://www.creative-tim.com/bootstrap-themes/free">Freebies</a> from Creative Tim</li>
+  <li><a href="https://www.creative-tim.com/affiliates/new">Affiliate Program</a> (earn money)</li>
+</ul>
+
+<h2 id="social-media">Social Media</h2>
+
+<ul>
+  <li>Twitter: <a href="https://twitter.com/CreativeTim">https://twitter.com/CreativeTim</a></li>
+  <li>Facebook: <a href="https://www.facebook.com/CreativeTim">https://www.facebook.com/CreativeTim</a></li>
+  <li>Dribbble: <a href="https://dribbble.com/creativetim">https://dribbble.com/creativetim</a></li>
+  <li>Google+: <a href="https://plus.google.com/+CreativetimPage">https://plus.google.com/+CreativetimPage</a></li>
+  <li>Instagram: <a href="https://www.instagram.com/CreativeTimOfficial">https://www.instagram.com/CreativeTimOfficial</a></li>
+</ul>
