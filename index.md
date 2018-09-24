@@ -242,15 +242,3 @@ title: Home Equity Investments
   </div>
 </section>
 </div>
-<script>
-$('#homeownerGoogleForm').on('submit', function(e) {
-  $('#homeownerGoogleForm').fadeOut(1000, function() {
-    $('.homeowner-form-body').prepend('<i class="fa fa-check text-success mr-3"></i>Thanks! We\'ll get in touch with you soon!');
-  });
-});
-$('#investorGoogleForm').on('submit', function(e) {
-  $('#investorGoogleForm').fadeOut(1000, function() {
-    $('.investor-form-body').prepend('<i class="fa fa-check text-success mr-3"></i>Thanks! We\'ll get in touch with you soon!');
-  });
-});
-</script>
