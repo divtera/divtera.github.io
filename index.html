@@ -18,6 +18,8 @@
   <link type="text/css" href="./assets/css/argon.css?v=1.0.1" rel="stylesheet">
   <!-- Docs CSS -->
   <link type="text/css" href="./assets/css/docs.min.css" rel="stylesheet">
+  <script type="text/javascript">var homeownerFormSubmitted=false;var investorFormSubmitted=false;</script>
+
 </head>
 
 <body>
@@ -120,97 +122,248 @@
                         <p><i class="fa fa-check text-success mr-3"></i>We'll find buyers to invest in your home.</p>
                         <p><i class="fa fa-check text-success mr-3"></i>The money's yours - interest free.</p>
                         <div class="text-center">
-                          <button type="button" class="btn btn-success mt-2"><i class="fa fa-unlock mr-3"></i>Unlock your wealth.</button>
+                          <button type="button" class="btn btn-success mt-2 text-center" data-toggle="modal" data-target="#homeowner-modal-form"><i class="fa fa-unlock mr-3"></i>Unlock your wealth.</button>
                         </div>
 
-                      </div>
-                      <div class="tab-pane fade" id="tabs-icons-text-2" role="tabpanel" aria-labelledby="tabs-icons-text-2-tab">
-                        <p><i class="fa fa-check text-success mr-3"></i> Diversify your investment portfolio.</p>
-                        <p><i class="fa fa-check text-success mr-3"></i> Increase your exposure to residential estate</p>
-                        <p><i class="fa fa-check text-success mr-3"></i> Invest in real estate for as little as $500.</p>
-                        <div class="text-center">
-                          <button type="button" class="btn btn-success mt-2"><i class="fa fa-dollar mr-3"></i>Start investing</button>
+                        <div class="modal fade" id="homeowner-modal-form" tabindex="-1" role="dialog" aria-labelledby="homeowner-modal-form" style="display: none;" aria-hidden="true">
+                          <div class="modal-dialog modal- modal-dialog-centered modal-sm" role="document">
+                            <div class="modal-content">
+                              <div class="modal-body p-0">
+                                <div class="card bg-secondary shadow border-0">
+                                  <div class="card-body px-lg-5 py-lg-5 homeowner-form-body">
+                                    <form action="https://docs.google.com/forms/d/e/1FAIpQLSfUacJUI-oz_cD_CGMtCdAH_WR0M2qxBNahG1AIzVoXIeqejA/formResponse"
+                                    target="hidden_iframe"
+                                    id="homeownerGoogleForm"
+                                    role="form"
+                                    onsubmit="homeownerFormSubmitted=true;"
+                                    method="POST">
+                                    <!-- Field type: "short" id: "515256240" -->
+                                    <div class="form-group mb-3">
+                                      <div class="input-group input-group-alternative">
+                                        <div class="input-group-prepend">
+                                          <span class="input-group-text"><i class="ni ni-email-83"></i></span>
+                                        </div>
+                                        <input id="1412930648" type="text" name="entry.1412930648" class="form-control" placeholder="Name" required>
+                                      </div>
+                                    </div>
+
+
+                                    <!-- Field type: "short" id: "158563703" -->
+                                    <div class="form-group mb-3">
+                                      <div class="input-group input-group-alternative">
+                                        <div class="input-group-prepend">
+                                          <span class="input-group-text"><i class="ni ni-email-83"></i></span>
+                                        </div>
+                                        <input id="1395377492" type="email" name="entry.1395377492" class="form-control" placeholder="Email" required>
+                                      </div>
+                                    </div>
+
+
+                                    <!-- Field type: "choices" id: "1631184235" -->
+                                    <input type="hidden" name="entry.1148005771" id="entry.1148005771" value="Homeowner" >
+
+                                    <!-- Field type: "short" id: "278958465" -->
+
+                                    <div class="form-group mb-3">
+                                      <div class="input-group input-group-alternative">
+                                        <div class="input-group-prepend">
+                                          <span class="input-group-text"><i class="ni ni-email-83"></i></span>
+                                        </div>
+                                        <input id="1913009280" type="text" name="entry.1913009280" class="form-control" placeholder="Where do you live?" required>
+                                      </div>
+                                    </div>
+
+                                    <input type="hidden" name="fvv" value="1">
+                                    <input type="hidden" name="fbzx" value="6553451801892242422">
+                                    <!--
+                                    CAVEAT: In multipages (multisection) forms, *pageHistory* field tells to google what sections we've currently completed.
+                                    This usually starts as "0" for the first page, then "0,1" in the second page... up to "0,1,2..N" in n-th page.
+                                    Keep this in mind if you plan to change this code to recreate any sort of multipage-feature in your exported form.
+                                    We're setting this to the total number of pages in this form because we're sending all fields from all the section together.
+                                  -->
+                                  <input type="hidden" name="pageHistory" value="0">
+                                  <div class="text-center">
+                                    <button type="submit" value="Submit" class="btn btn-primary my-4">Submit</button>
+                                  </div>
+                                </form>
+                                <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(homeownerFormSubmitted) {}"></iframe>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
+                  </div>
+                  <div class="tab-pane fade" id="tabs-icons-text-2" role="tabpanel" aria-labelledby="tabs-icons-text-2-tab">
+                    <p><i class="fa fa-check text-success mr-3"></i> Diversify your investment portfolio.</p>
+                    <p><i class="fa fa-check text-success mr-3"></i> Increase your exposure to residential estate</p>
+                    <p><i class="fa fa-check text-success mr-3"></i> Invest in real estate for as little as $500.</p>
+                    <div class="text-center">
+                      <button type="button" class="btn btn-success mt-2 text-center" data-toggle="modal" data-target="#investor-modal-form"><i class="fas fa-dollar-sign mr-3"></i>Start investing</button>
+                    </div>
+
+                    <div class="modal fade" id="investor-modal-form" tabindex="-1" role="dialog" aria-labelledby="investor-modal-form" style="display: none;" aria-hidden="true">
+                      <div class="modal-dialog modal- modal-dialog-centered modal-sm" role="document">
+                        <div class="modal-content">
+                          <div class="modal-body p-0">
+                            <div class="card bg-secondary shadow border-0">
+                              <div class="card-body px-lg-5 py-lg-5 investor-form-body">
+                                <form action="https://docs.google.com/forms/d/e/1FAIpQLSfUacJUI-oz_cD_CGMtCdAH_WR0M2qxBNahG1AIzVoXIeqejA/formResponse"
+                                target="hidden_iframe_investor"
+                                id="investorGoogleForm"
+                                role="form"
+                                onsubmit="investorFormSubmitted=true;"
+                                method="POST">
+                                <!-- Field type: "short" id: "515256240" -->
+                                <div class="form-group mb-3">
+                                  <div class="input-group input-group-alternative">
+                                    <div class="input-group-prepend">
+                                      <span class="input-group-text"><i class="ni ni-email-83"></i></span>
+                                    </div>
+                                    <input id="1412930648" type="text" name="entry.1412930648" class="form-control" placeholder="Name" required>
+                                  </div>
+                                </div>
+
+
+                                <!-- Field type: "short" id: "158563703" -->
+                                <div class="form-group mb-3">
+                                  <div class="input-group input-group-alternative">
+                                    <div class="input-group-prepend">
+                                      <span class="input-group-text"><i class="ni ni-email-83"></i></span>
+                                    </div>
+                                    <input id="1395377492" type="email" name="entry.1395377492" class="form-control" placeholder="Email" required>
+                                  </div>
+                                </div>
+
+
+                                <!-- Field type: "choices" id: "1631184235" -->
+                                <input type="hidden" name="entry.1148005771" id="entry.1148005771" value="Investor" >
+
+                                <!-- Field type: "short" id: "278958465" -->
+
+                                <div class="form-group mb-3">
+                                  <div class="input-group input-group-alternative">
+                                    <div class="input-group-prepend">
+                                      <span class="input-group-text"><i class="ni ni-email-83"></i></span>
+                                    </div>
+                                    <input id="1913009280" type="text" name="entry.1913009280" class="form-control" placeholder="Where do you live?" required>
+                                  </div>
+                                </div>
+
+                                <input type="hidden" name="fvv" value="1">
+                                <input type="hidden" name="fbzx" value="6553451801892242422">
+                                <!--
+                                CAVEAT: In multipages (multisection) forms, *pageHistory* field tells to google what sections we've currently completed.
+                                This usually starts as "0" for the first page, then "0,1" in the second page... up to "0,1,2..N" in n-th page.
+                                Keep this in mind if you plan to change this code to recreate any sort of multipage-feature in your exported form.
+                                We're setting this to the total number of pages in this form because we're sending all fields from all the section together.
+                              -->
+                              <input type="hidden" name="pageHistory" value="0">
+                              <div class="text-center">
+                                <button type="submit" value="Submit" class="btn btn-primary my-4">Submit</button>
+                              </div>
+                            </form>
+                            <iframe name="hidden_iframe_investor" id="hidden_iframe_investor" style="display:none;" onload="if(investorFormSubmitted) {}"></iframe>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <!-- SVG separator -->
-        <div class="separator separator-bottom separator-skew zindex-100">
-          <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
-            <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
-          </svg>
-        </div>
-      </section>
-      <section class="section">
-        <div class="container">
-          <div class="row align-items-center align-top">
-            <div class="col-lg-3">
-              <p class="text-center">
-                <i class="fas fa-home fa-4x text-center"></i>
-              </p>
-              <p>We work with homeowners to offer up to 20% of their home on the equity marketplace.</p>
-            </div>
-            <div class="col-lg-3">
-              <p class="text-center">
-                <i class="far fa-copy fa-4x text-center"></i>
-              </p>
-              <p>Next, we'll divide the offering into smaller "shares", which are offered to investors.</p>
-            </div>
-            <div class="col-lg-3">
-              <p class="text-center">
-                <i class="fas fa-dollar-sign fa-4x text-center align-top"></i>
-              </p>
-              <p>Investors can purchase individual shares in the newly listed home.</p>
-            </div>
-            <div class="col-lg-3">
-              <p class="text-center">
-                <i class="far fa-envelope-open fa-4x text-center"></i>
-              </p>
-              <p>Once all the shares have been purchased, the homeowner gets their money.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-  </main>
-  <footer class="footer">
-    <div class="container">
-      <div class="row align-items-center justify-content-md-between">
-        <div class="col-md-6">
-          <div class="copyright">
-            &copy; 2018
-            <a href="https://divtera.com" target="_blank">Divtera</a>.
-          </div>
-        </div>
-        <div class="col-md-6">
-          <ul class="nav nav-footer justify-content-end">
-            <li class="nav-item">
-              <a href="https://divtera.com" class="nav-link" target="_blank">Divtera</a>
-            </li>
-            <li class="nav-item">
-              <a href="https://divtera.com/about.html" class="nav-link" target="_blank">About Us</a>
-            </li>
-          </ul>
-        </div>
       </div>
     </div>
-  </footer>
-  <!-- Core -->
-  <script src="./assets/vendor/jquery/jquery.min.js"></script>
-  <script src="./assets/vendor/popper/popper.min.js"></script>
-  <script src="./assets/vendor/bootstrap/bootstrap.min.js"></script>
-  <script src="./assets/vendor/headroom/headroom.min.js"></script>
-  <!-- Optional JS -->
-  <script src="./assets/vendor/onscreen/onscreen.min.js"></script>
-  <script src="./assets/vendor/nouislider/js/nouislider.min.js"></script>
-  <script src="./assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
-  <!-- Argon JS -->
-  <script src="./assets/js/argon.js?v=1.0.1"></script>
+  </div>
+</div>
+<!-- SVG separator -->
+<div class="separator separator-bottom separator-skew zindex-100">
+  <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
+  </svg>
+</div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="row align-items-center align-top">
+      <div class="col-lg-3">
+        <p class="text-center">
+          <i class="fas fa-home fa-4x text-center"></i>
+        </p>
+        <p>We work with homeowners to offer up to 20% of their home on the equity marketplace.</p>
+      </div>
+      <div class="col-lg-3">
+        <p class="text-center">
+          <i class="far fa-copy fa-4x text-center"></i>
+        </p>
+        <p>Next, we'll divide the offering into smaller "shares", which are offered to investors.</p>
+      </div>
+      <div class="col-lg-3">
+        <p class="text-center">
+          <i class="fas fa-dollar-sign fa-4x text-center align-top"></i>
+        </p>
+        <p>Investors can purchase individual shares in the newly listed home.</p>
+      </div>
+      <div class="col-lg-3">
+        <p class="text-center">
+          <i class="far fa-envelope-open fa-4x text-center"></i>
+        </p>
+        <p>Once all the shares have been purchased, the homeowner gets their money.</p>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+</main>
+<footer class="footer">
+  <div class="container">
+    <div class="row align-items-center justify-content-md-between">
+      <div class="col-md-6">
+        <div class="copyright">
+          &copy; 2018
+          <a href="https://divtera.com" target="_blank">Divtera</a>.
+        </div>
+      </div>
+      <div class="col-md-6">
+        <ul class="nav nav-footer justify-content-end">
+          <li class="nav-item">
+            <a href="https://divtera.com" class="nav-link" target="_blank">Divtera</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link" target="_blank">About Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- Core -->
+<script src="./assets/vendor/jquery/jquery.min.js"></script>
+<script src="./assets/vendor/jquery/jquery.form.js"></script>
+<script src="./assets/vendor/popper/popper.min.js"></script>
+<script src="./assets/vendor/bootstrap/bootstrap.min.js"></script>
+<script src="./assets/vendor/headroom/headroom.min.js"></script>
+<!-- Optional JS -->
+<script src="./assets/vendor/onscreen/onscreen.min.js"></script>
+<script src="./assets/vendor/nouislider/js/nouislider.min.js"></script>
+<script src="./assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+<!-- Argon JS -->
+<script src="./assets/js/argon.js?v=1.0.1"></script>
+<script>
+$('#homeownerGoogleForm').on('submit', function(e) {
+  $('#homeownerGoogleForm').fadeOut(1000, function() {
+    $('.homeowner-form-body').prepend('<i class="fa fa-check text-success mr-3"></i>Thanks! We\'ll get in touch with you soon!');
+  });
+});
+$('#investorGoogleForm').on('submit', function(e) {
+  $('#investorGoogleForm').fadeOut(1000, function() {
+    $('.investor-form-body').prepend('<i class="fa fa-check text-success mr-3"></i>Thanks! We\'ll get in touch with you soon!');
+  });
+});
+</script>
 </body>
 
 </html>
