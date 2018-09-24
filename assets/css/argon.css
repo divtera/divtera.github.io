@@ -16087,6 +16087,32 @@ textarea[resize='horizontal']
     }
 }
 
+.nav-outline .nav-link
+{
+    color: #fff; 
+    border: 2px solid #fff !important;
+    background-color: transparent !important;
+}
+
+.nav-outline .nav-link.active,
+.nav-outline .show > .nav-link
+{
+    color: #fff !important;
+    border-color: #5e72e4 !important;
+    background-color: #5e72e4 !important;
+}
+.nav-outline .nav-link.active i.fa,
+.nav-outline .show > .nav-link i.fa
+{
+    color: #8a98eb;
+}
+
+.nav-outline .nav-link:hover
+{
+    color: #fff !important; 
+    border-color: #5e72e4 !important;
+}
+
 @media (max-width: 767.98px)
 {
     .nav-pills:not(.nav-pills-circle) .nav-item
