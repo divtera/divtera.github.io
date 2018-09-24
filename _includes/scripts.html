@@ -1,0 +1,23 @@
+<!-- Core -->
+<script src="./assets/vendor/jquery/jquery.min.js"></script>
+<script src="./assets/vendor/popper/popper.min.js"></script>
+<script src="./assets/vendor/bootstrap/bootstrap.min.js"></script>
+<script src="./assets/vendor/headroom/headroom.min.js"></script>
+<!-- Optional JS -->
+<script src="./assets/vendor/onscreen/onscreen.min.js"></script>
+<script src="./assets/vendor/nouislider/js/nouislider.min.js"></script>
+<script src="./assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+<!-- Argon JS -->
+<script src="./assets/js/argon.js?v=1.0.1"></script>
+<script>
+$('#homeownerGoogleForm').on('submit', function(e) {
+  $('#homeownerGoogleForm').fadeOut(1000, function() {
+    $('.homeowner-form-body').prepend('<i class="fa fa-check text-success mr-3"></i>Thanks! We\'ll get in touch with you soon!');
+  });
+});
+$('#investorGoogleForm').on('submit', function(e) {
+  $('#investorGoogleForm').fadeOut(1000, function() {
+    $('.investor-form-body').prepend('<i class="fa fa-check text-success mr-3"></i>Thanks! We\'ll get in touch with you soon!');
+  });
+});
+</script>

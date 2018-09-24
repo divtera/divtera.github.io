@@ -1,85 +1,10 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default
+title: Home Equity Investments
+---
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Connecting homeowners who want to tap into their home equity with investors who want to diversify their portfolios.">
-  <meta name="author" content="Divtera">
-  <title>Divtera - Home Equity Investments</title>
-  <!-- Favicon -->
-  <link href="./assets/img/brand/favicon.png" rel="icon" type="image/png">
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-  <!-- Icons -->
-  <link href="./assets/vendor/nucleo/css/nucleo.css" rel="stylesheet">
-  <link href="./assets/vendor/font-awesome/css/all.min.css" rel="stylesheet">
-  <!-- Argon CSS -->
-  <link type="text/css" href="./assets/css/argon.css?v=1.0.1" rel="stylesheet">
-  <!-- Docs CSS -->
-  <link type="text/css" href="./assets/css/docs.min.css" rel="stylesheet">
-  <script type="text/javascript">var homeownerFormSubmitted=false;var investorFormSubmitted=false;</script>
-
-</head>
-
-<body>
-  <header class="header-global">
-    <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom">
-      <div class="container">
-        <a class="navbar-brand mr-lg-5" href="./index.html">
-          divtera
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="navbar-collapse collapse" id="navbar_global">
-          <div class="navbar-collapse-header">
-            <div class="row">
-              <div class="col-6 collapse-brand">
-                <a href="./index.html">divtera</a>
-              </div>
-              <div class="col-6 collapse-close">
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
-                  <span></span>
-                  <span></span>
-                </button>
-              </div>
-            </div>
-          </div>
-          <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
-            <li class="nav-item">
-              <a class="nav-link" href="faq.html" role="button">
-                <i class="ni ni-ui-04 d-lg-none"></i>
-                <span class="nav-link-inner--text">FAQ</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html" role="button">
-                <i class="ni ni-ui-04 d-lg-none"></i>
-                <span class="nav-link-inner--text">About Us</span>
-              </a>
-            </li>
-          </ul>
-          <ul class="navbar-nav align-items-lg-center ml-lg-auto">
-            <li class="nav-item">
-              <a class="nav-link nav-link-icon" href="https://www.facebook.com/divtera" target="_blank" data-toggle="tooltip" title="Like us on Facebook">
-                <i class="fab fa-facebook"></i>
-                <span class="nav-link-inner--text d-lg-none">Facebook</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link nav-link-icon" href="https://twitter.com/divtera" target="_blank" data-toggle="tooltip" title="Follow us on Twitter">
-                <i class="fab fa-twitter"></i>
-                <span class="nav-link-inner--text d-lg-none">Twitter</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
-  <main>
-    <div class="position-relative">
+<script type="text/javascript">var homeownerFormSubmitted=false;var investorFormSubmitted=false;</script>
+<div class="position-relative">
       <!-- Hero for FREE version -->
       <section class="section section-sm section-hero section-shaped">
         <!-- Background circles -->
@@ -317,41 +242,6 @@
   </div>
 </section>
 </div>
-</main>
-<footer class="footer">
-  <div class="container">
-    <div class="row align-items-center justify-content-md-between">
-      <div class="col-md-6">
-        <div class="copyright">
-          &copy; 2018
-          <a href="https://divtera.com" target="_blank">Divtera</a>.
-        </div>
-      </div>
-      <div class="col-md-6">
-        <ul class="nav nav-footer justify-content-end">
-          <li class="nav-item">
-            <a href="https://divtera.com" class="nav-link" target="_blank">Divtera</a>
-          </li>
-          <li class="nav-item">
-            <a href="about.html" class="nav-link" target="_blank">About Us</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</footer>
-<!-- Core -->
-<script src="./assets/vendor/jquery/jquery.min.js"></script>
-<script src="./assets/vendor/jquery/jquery.form.js"></script>
-<script src="./assets/vendor/popper/popper.min.js"></script>
-<script src="./assets/vendor/bootstrap/bootstrap.min.js"></script>
-<script src="./assets/vendor/headroom/headroom.min.js"></script>
-<!-- Optional JS -->
-<script src="./assets/vendor/onscreen/onscreen.min.js"></script>
-<script src="./assets/vendor/nouislider/js/nouislider.min.js"></script>
-<script src="./assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
-<!-- Argon JS -->
-<script src="./assets/js/argon.js?v=1.0.1"></script>
 <script>
 $('#homeownerGoogleForm').on('submit', function(e) {
   $('#homeownerGoogleForm').fadeOut(1000, function() {
@@ -364,6 +254,3 @@ $('#investorGoogleForm').on('submit', function(e) {
   });
 });
 </script>
-</body>
-
-</html>
