@@ -31,10 +31,30 @@ title: Home Equity Investments
                 <div class="nav-wrapper">
                   <ul class="nav nav-pills nav-fill nav-outline flex-xs-column flex-md-row" id="tabs-icons-text" role="tablist">
                     <li class="nav-item pr-2">
-                      <a class="nav-link mb-sm-3 mb-md-0 active btn-1 btn-outline-primary" id="homeowner-info-tab" data-toggle="tab" href="#homeowners-info-tab" role="tab" aria-controls="homeowners-info-tab" aria-selected="true"><i class="fas fa-home mr-2"></i>Homeowners</a>
+                      <a 
+                      class="nav-link mb-sm-3 mb-md-0 active btn-1 btn-outline-primary" 
+                      id="homeowner-info-tab" 
+                      data-toggle="tab" 
+                      href="#homeowners-info-tab" 
+                      role="tab" 
+                      aria-controls="homeowners-info-tab" 
+                      aria-selected="true" 
+                      onClick="ga('send', 'event', 'Homeowner Tab', 'click', 'Homepage')">
+                        <i class="fas fa-home mr-2"></i>Homeowners
+                      </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link mb-sm-3 mb-md-0 btn-1 btn-outline-primary" id="tabs-icons-text-2-tab" data-toggle="tab" href="#tabs-icons-text-2" role="tab" aria-controls="tabs-icons-text-2" aria-selected="false"><i class="fas fa-chart-line mr-2"></i>Investors</a>
+                      <a 
+                      class="nav-link mb-sm-3 mb-md-0 btn-1 btn-outline-primary" 
+                      id="tabs-icons-text-2-tab" 
+                      data-toggle="tab" 
+                      href="#tabs-icons-text-2" 
+                      role="tab" 
+                      aria-controls="tabs-icons-text-2" 
+                      aria-selected="false"
+                      onClick="ga('send', 'event', 'Investor Tab', 'click', 'Homepage')">
+                        <i class="fas fa-chart-line mr-2"></i>Investors
+                      </a>
                     </li>
                   </ul>
                 </div>
@@ -47,7 +67,8 @@ title: Home Equity Investments
                         <p><i class="fa fa-check text-success mr-3"></i>We'll find buyers to invest in your home.</p>
                         <p><i class="fa fa-check text-success mr-3"></i>The money's yours - interest free.</p>
                         <div class="text-center">
-                          <button type="button" class="btn btn-success mt-2 text-center" data-toggle="modal" data-target="#homeowner-modal-form"><i class="fa fa-unlock mr-3"></i>Unlock your wealth.</button>
+                          <button type="button" class="btn btn-success mt-2 text-center" data-toggle="modal" data-target="#homeowner-modal-form"
+                          onClick="ga('send', 'event', 'Homeowner Learn More', 'click', 'Homepage')"><i class="fa fa-unlock mr-3"></i>Unlock your wealth.</button>
                         </div>
 
                         <div class="modal fade" id="homeowner-modal-form" tabindex="-1" role="dialog" aria-labelledby="homeowner-modal-form" style="display: none;" aria-hidden="true">
@@ -124,7 +145,7 @@ title: Home Equity Investments
                     <p><i class="fa fa-check text-success mr-3"></i> Increase your exposure to residential estate</p>
                     <p><i class="fa fa-check text-success mr-3"></i> Invest in real estate for as little as $500.</p>
                     <div class="text-center">
-                      <button type="button" class="btn btn-success mt-2 text-center" data-toggle="modal" data-target="#investor-modal-form"><i class="fas fa-dollar-sign mr-3"></i>Start investing</button>
+                      <button type="button" class="btn btn-success mt-2 text-center" data-toggle="modal" data-target="#investor-modal-form" onClick="ga('send', 'event', 'Investor Learn More', 'click', 'Homepage')"><i class="fas fa-dollar-sign mr-3"></i>Start investing</button>
                     </div>
 
                     <div class="modal fade" id="investor-modal-form" tabindex="-1" role="dialog" aria-labelledby="investor-modal-form" style="display: none;" aria-hidden="true">
