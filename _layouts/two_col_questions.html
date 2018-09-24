@@ -1,0 +1,29 @@
+---
+layout: info
+---
+<div class="row row-grid mb-5">
+  <div class="col-lg-6">
+    <h1 class="text-success text-center">{{ page.col_one_title }}</h1>
+    {% for q in page.col_one_questions %}
+    <div class="card mb-4">
+      <div class="card-body">
+        <h5 class="card-title">{{ q.question }}</h5>
+        {% for a in q.answer %}
+        <p class="card-text">{{ a }}</p>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  <div class="col-lg-6">
+    <h1 class="text-info text-center">{{ page.col_two_title }}</h1>
+    {% for q in page.col_two_questions %}
+    <div class="card mb-4">
+      <div class="card-body">
+        <h5 class="card-title">{{ q.question }}</h5>
+        <p class="card-text">{{ q.answer }}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
