@@ -1,0 +1,56 @@
+<form action="https://docs.google.com/forms/d/e/1FAIpQLSfUacJUI-oz_cD_CGMtCdAH_WR0M2qxBNahG1AIzVoXIeqejA/formResponse"
+target="hidden_iframe"
+id="homeownerGoogleForm"
+role="form"
+onsubmit="homeownerFormSubmitted=true;"
+method="POST">
+  <!-- Field type: "short" id: "515256240" -->
+  <div class="form-group mb-3">
+    <div class="input-group input-group-alternative">
+      <div class="input-group-prepend">
+        <span class="input-group-text"><i class="ni ni-email-83"></i></span>
+      </div>
+      <input id="1412930648" type="text" name="entry.1412930648" class="form-control" placeholder="Name" required>
+    </div>
+  </div>
+
+
+  <!-- Field type: "short" id: "158563703" -->
+  <div class="form-group mb-3">
+    <div class="input-group input-group-alternative">
+      <div class="input-group-prepend">
+        <span class="input-group-text"><i class="ni ni-email-83"></i></span>
+      </div>
+      <input id="1395377492" type="email" name="entry.1395377492" class="form-control" placeholder="Email" required>
+    </div>
+  </div>
+
+
+  <!-- Field type: "choices" id: "1631184235" -->
+  <input type="hidden" name="entry.1148005771" id="entry.1148005771" value="Homeowner" >
+
+  <!-- Field type: "short" id: "278958465" -->
+
+  <div class="form-group mb-3">
+    <div class="input-group input-group-alternative">
+      <div class="input-group-prepend">
+        <span class="input-group-text"><i class="ni ni-email-83"></i></span>
+      </div>
+      <input id="1913009280" type="text" name="entry.1913009280" class="form-control" placeholder="Where do you live?" required>
+    </div>
+  </div>
+
+  <input type="hidden" name="fvv" value="1">
+  <input type="hidden" name="fbzx" value="6553451801892242422">
+  <!--
+  CAVEAT: In multipages (multisection) forms, *pageHistory* field tells to google what sections we've currently completed.
+  This usually starts as "0" for the first page, then "0,1" in the second page... up to "0,1,2..N" in n-th page.
+  Keep this in mind if you plan to change this code to recreate any sort of multipage-feature in your exported form.
+  We're setting this to the total number of pages in this form because we're sending all fields from all the section together.
+  -->
+  <input type="hidden" name="pageHistory" value="0">
+  <div class="text-center">
+    <button type="submit" value="Submit" class="btn btn-primary my-4">Submit</button>
+  </div>
+</form>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(homeownerFormSubmitted) {}"></iframe>
