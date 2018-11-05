@@ -22,31 +22,41 @@ title: Home Equity Investments
     <div class="container shape-container d-flex align-items-center pt-3 pb-lg">
       <div class="col px-0">
         <div class="row align-items-center justify-content-center">
-          <div class="col-lg-4 mb-1 mb-lg-0">{% include new_contact.html %}</div>
-          <div class="col-lg-8">
-            <h1 class="text-white font-weight-light">The marketplace for home equity.</h1>
-            <p class="lead text-white mt-4">Unlocking wealth tied up in private, residential real estate.</p>
+          <div class="col-md-12 text-center">
+            <h1 class="text-white mb-4">The marketplace for home equity.</h1>
+            <!-- <p class="lead text-white mt-4">Unlocking wealth tied up in private, residential real estate.</p> -->
+          </div>
+          <div class="col-md-7">
             <div class="row">
               <div class="col-lg-6">
-                <div class="card shadow">
+                <div class="card shadow bg-secondary">
+                  <div class="card-header">Are you a homeowner?</div>
                   <div class="card-body">
-                    <ul class="fa-ul" style="list-style-position: inside;">
-                      <li><i class="fa fa-li fa-check text-success"></i>Sell up to 20% of your home's equity.</li>
-                      <li><i class="fa fa-li fa-check text-success"></i>We'll find buyers to invest in your home.</li>
-                      <li><i class="fa fa-li fa-check text-success"></i>The money's yours - interest free.</li>
+                    <ul class="fa-ul font-weight-light">
+                      <li>{% include fa.html icon="check" list=true color="success"%}Sell up to 20% of your home's equity.</li>
+                      <li>{% include fa.html icon="check" list=true color="success"%}We'll find buyers to invest in your home.</li>
+                      <li>{% include fa.html icon="check" list=true color="success"%}The money's yours - interest free.</li>
                     </ul>
                   </div>
                 </div>
               </div>
               <div class="col-lg-6">
-                <div class="card shadow">
+                <div class="card shadow bg-secondary">
+                  <div class="card-header">Are you an investor?</div>
                   <div class="card-body">
-                    <p><i class="fa fa-check text-success mr-3"></i> Diversify your investment portfolio.</p>
-                    <p><i class="fa fa-check text-success mr-3"></i> Increase your exposure to residential estate</p>
-                    <p><i class="fa fa-check text-success mr-3"></i> Invest in real estate for as little as $500.</p>
+                    <ul class="fa-ul font-weight-light">
+                      <li>{% include fa.html icon="check" list=true color="success"%} Diversify your investment portfolio.</li>
+                      <li>{% include fa.html icon="check" list=true color="success"%} Increase your exposure to residential estate</li>
+                      <li>{% include fa.html icon="check" list=true color="success"%} Invest in real estate for as little as $500.</li>
+                    </ul>
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+          <div class="col-md-5 mb-1 mb-lg-0">
+            <div class="contact-form-body">
+              {% include new_contact.html %}
             </div>
           </div>
         </div>

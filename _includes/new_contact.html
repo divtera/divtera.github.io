@@ -2,7 +2,7 @@
 <form action="https://docs.google.com/forms/d/e/1FAIpQLSfUacJUI-oz_cD_CGMtCdAH_WR0M2qxBNahG1AIzVoXIeqejA/formResponse"
 target="hidden_iframe"
 class="text-white contact-form"
-id="homeownerGoogleForm"
+id="contactForm"
 role="form"
 onsubmit="homeownerFormSubmitted=true;"
 method="POST">
@@ -14,14 +14,14 @@ method="POST">
     </div>
     <div class="form-group">
       <div class="form-check">
-        <input class="form-check-input" type="radio"  name="entry.1148005771" id="entry.1148005771" value="Homeowner" checked>
-        <label class="form-check-label" for="exampleRadios1">
+        <label class="form-check-label font-weight-light">
+          <input class="form-check-input" type="radio"  name="entry.1148005771" id="entry.1148005771" value="Homeowner" checked>
           access the home equity I've built up
         </label>
       </div>
       <div class="form-check">
-        <input class="form-check-input" type="radio"  name="entry.1148005771" id="entry.1148005771" value="Investor">
-        <label class="form-check-label" for="exampleRadios2">
+        <label class="form-check-label font-weight-light">
+          <input class="form-check-input" type="radio"  name="entry.1148005771" id="entry.1148005771" value="Investor">
           invest in real estate
         </label>
       </div>
@@ -33,6 +33,7 @@ method="POST">
 
   <input type="hidden" name="fvv" value="1">
   <input type="hidden" name="fbzx" value="6553451801892242422">
+  <input id="1913009280" type="hidden" name="entry.1913009280" class="form-control" value="AUTO">
   <!--
   CAVEAT: In multipages (multisection) forms, *pageHistory* field tells to google what sections we've currently completed.
   This usually starts as "0" for the first page, then "0,1" in the second page... up to "0,1,2..N" in n-th page.
