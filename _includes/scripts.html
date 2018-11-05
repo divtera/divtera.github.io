@@ -10,14 +10,26 @@
 <!-- Argon JS -->
 <script src="./assets/js/argon.js?v=1.0.1"></script>
 <script>
-$('#homeownerGoogleForm').on('submit', function(e) {
-  $('#homeownerGoogleForm').fadeOut(1000, function() {
-    $('.homeowner-form-body').prepend('<i class="fa fa-check text-success mr-3"></i>Thanks! We\'ll get in touch with you soon!');
+function formAction(action, label) {
+    gtag('event', `contact_form_${action}`, {
+        'event_category': "Contact Form",
+        'event_label': label,
+    });
+}
+
+function formFocus(id, label) {
+    $(`#${id}`).on('focus', function(e){
+        formAction('focus', 'label');
+    });
+}
+
+$('#contactForm').on('submit', function(e) {
+  $('#contactForm').fadeOut(1000, function() {
+    formAction('submit', 'header')
+    $('.contact-form-body').prepend('<p class="text-white"><i class="fa fa-check text-success mr-3"></i>Thanks! We\'ll get in touch with you soon!</p>');
   });
 });
-$('#investorGoogleForm').on('submit', function(e) {
-  $('#investorGoogleForm').fadeOut(1000, function() {
-    $('.investor-form-body').prepend('<i class="fa fa-check text-success mr-3"></i>Thanks! We\'ll get in touch with you soon!');
-  });
-});
+
+formFocus('1412930648', 'name');
+formFocus('1395377492', 'email');
 </script>

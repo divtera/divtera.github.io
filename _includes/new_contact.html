@@ -1,0 +1,48 @@
+<script type="text/javascript">var homeownerFormSubmitted=false;var investorFormSubmitted=false;</script>
+<form action="https://docs.google.com/forms/d/e/1FAIpQLSfUacJUI-oz_cD_CGMtCdAH_WR0M2qxBNahG1AIzVoXIeqejA/formResponse"
+target="hidden_iframe"
+class="text-white contact-form"
+id="contactForm"
+role="form"
+onsubmit="homeownerFormSubmitted=true;"
+method="POST">
+  <!-- Field type: "short" id: "515256240" -->
+  <div>
+    <p>Hi,</p>
+    <div class="form-inline">
+      <p>My name is <input id="1412930648" type="text" name="entry.1412930648" class="form-control form-control-sm form-control-transparent" placeholder="Name" required>. I'd like to</p>
+    </div>
+    <div class="form-group">
+      <div class="form-check">
+        <label class="form-check-label font-weight-light">
+          <input class="form-check-input" type="radio"  name="entry.1148005771" id="entry.1148005771" value="Homeowner" checked>
+          access the home equity I've built up
+        </label>
+      </div>
+      <div class="form-check">
+        <label class="form-check-label font-weight-light">
+          <input class="form-check-input" type="radio"  name="entry.1148005771" id="entry.1148005771" value="Investor">
+          invest in real estate
+        </label>
+      </div>
+    </div>
+    <div class="form-inline">
+      <p>You can email me at <input id="1395377492" type="email" name="entry.1395377492" class="form-control form-control-sm form-control-transparent inline" placeholder="Email" required>.</p>
+    </div>
+  </div>
+
+  <input type="hidden" name="fvv" value="1">
+  <input type="hidden" name="fbzx" value="6553451801892242422">
+  <input id="1913009280" type="hidden" name="entry.1913009280" class="form-control" value="AUTO">
+  <!--
+  CAVEAT: In multipages (multisection) forms, *pageHistory* field tells to google what sections we've currently completed.
+  This usually starts as "0" for the first page, then "0,1" in the second page... up to "0,1,2..N" in n-th page.
+  Keep this in mind if you plan to change this code to recreate any sort of multipage-feature in your exported form.
+  We're setting this to the total number of pages in this form because we're sending all fields from all the section together.
+  -->
+  <input type="hidden" name="pageHistory" value="0">
+  <div class="text-center">
+    <button type="submit" value="Submit" class="btn btn-success">Get started</button>
+  </div>
+</form>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(homeownerFormSubmitted) {}"></iframe>
