@@ -57,6 +57,19 @@ textarea[resize="horizontal"] {
     }
 }
 
+.contact-form {
+    .form-control-transparent {
+        background: transparent;
+        color: white;
+        
+        &:focus {
+            background-color: $input-muted-bg;
+            color: $default;
+            //box-shadow: none;
+        }
+    }
+}
+
 // Sizes 
 
 .form-control-lg {
